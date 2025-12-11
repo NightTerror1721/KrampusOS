@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "KrampusOS",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__asm__=asm"
+            ],
+            "compilerPath": "i686-elf-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x86",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/src"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
